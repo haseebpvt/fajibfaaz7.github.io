@@ -1,0 +1,71 @@
+body {
+  top: 0;
+}
+nav.navbar {
+  height: 100px;
+}
+#navanim {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 40px 60px 20px 50px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+a:hover {
+  text-decoration: none;
+  color: gray;
+}
+/* .fajib-textdiv {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  font-size: 350%;
+  font-weight: bolder;
+  color: white;
+} */
+.cover-textdiv {
+  position: absolute;
+  z-index: 98;
+  color: white;
+  border-style: solid;
+  padding-bottom: 10px;
+  top: 50%;
+  left: 20%;
+  right: 18%;
+  font-weight: bolder;
+  font-size: 300%;
+}
+.cover-text {
+  padding: 10px;
+  text-align: center;
+}
+.nav-brand {
+  font-size: 170%;
+  color: white;
+}
+.parallax1 {
+  background-image: url("https://habrastorage.org/webt/pc/yj/0u/pcyj0uly_sdna63fl0kcwhb2fk4.png");
+  height: 100%;
+  /* filter: blur(8px);
+          -webkit-filter: blur(5px); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("https://habrastorage.org/webt/pc/yj/0u/pcyj0uly_sdna63fl0kcwhb2fk4.png");
+  height: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 580px) {
+  #navanim {
+    padding: 10px 20px 10px 20px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+}
