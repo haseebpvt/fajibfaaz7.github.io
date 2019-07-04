@@ -109,6 +109,6 @@ a:hover {
 }
 @media screen and (max-width: 580px) {
   #navanim {
-    padding: 10px 20px 10px 20px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    padding: 40px 60px 20px 50px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
   }
 }
