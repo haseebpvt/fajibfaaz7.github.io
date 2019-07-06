@@ -31,15 +31,14 @@ a:hover {
   z-index: 98;
   color: white;
   border-style: solid;
+  padding-top: 10px;
   padding-bottom: 10px;
   top: 40%;
   left: 18%;
   right: 18%;
-  font-weight: bolder;
-  font-size: 300%;
 }
 .cover-text {
-  padding: 20px;
+  font-weight: bolder;
   text-align: center;
 }
 .nav-brand {
@@ -58,7 +57,7 @@ a:hover {
 }
 .parallax2 {
   background-image: url("https://habrastorage.org/webt/pc/yj/0u/pcyj0uly_sdna63fl0kcwhb2fk4.png");
-  height: 50%;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
