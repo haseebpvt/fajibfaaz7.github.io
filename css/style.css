@@ -3,11 +3,14 @@ body {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+.bg {
+  background-color: rgba(17, 17, 17, 0);
+}
 nav.navbar {
   height: 100px;
 }
 #navanim {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(17, 17, 17, 0);
   padding: 40px 60px 20px 50px;
   transition: 0.4s;
   position: fixed;
@@ -89,7 +92,7 @@ a:hover {
 #portfolio {
   height: 100%;
   margin-left: 30%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #111;
 }
 #portfolio h2 {
   color: white;
@@ -99,7 +102,7 @@ a:hover {
 #resume {
   height: 100%;
   margin-right: 30%;
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #111;
 }
 #resume h2 {
   color: white;
@@ -137,10 +140,17 @@ a:hover {
     display: block;
     margin-bottom: 20px;
   }
+  .bg {
+    background-color: rgba(17, 17, 17, 1);
+    padding: 20px;
+  }
   .main-parallax {
     background-attachment: scroll;
   }
   .portfolio-parallax {
+    background-attachment: scroll;
+  }
+  .resume-parallax {
     background-attachment: scroll;
   }
   #navanim {
@@ -151,5 +161,8 @@ a:hover {
   }
   #portfolio h2 {
     padding: 5% 0;
+  }
+  #resume {
+    margin-right: 0%;
   }
 }
