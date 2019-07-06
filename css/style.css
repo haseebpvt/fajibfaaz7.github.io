@@ -160,9 +160,12 @@ a:hover {
     margin-left: 0%;
   }
   #portfolio h2 {
-    padding: 5% 0;
+    padding: 4% 0;
   }
   #resume {
     margin-right: 0%;
+  }
+  #resume h2 {
+    padding: 4% 0;
   }
 }
