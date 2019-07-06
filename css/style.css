@@ -20,7 +20,7 @@ nav.navbar {
 }
 a:hover {
   text-decoration: none;
-  color: black;
+  color: #f1f1f1;
 }
 .cover-textdiv {
   position: absolute;
@@ -133,7 +133,30 @@ a:hover {
   display: table;
   clear: both;
 }
-
+.resume-content {
+  width: 100%;
+  margin: 0;
+}
+.sidebar {
+  width: 18%;
+  height: 100%;
+  background: #111;
+  float: left;
+}
+.sidebar a {
+  display: block;
+  color: #818181;
+  padding: 16px 6 0 32;
+  font-size: 20px;
+}
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+.main-content {
+  width: 82%;
+  height: 400px;
+  margin-left: 18%;
+}
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
