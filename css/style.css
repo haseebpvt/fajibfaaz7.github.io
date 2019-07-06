@@ -56,7 +56,7 @@ a:hover {
 }
 .parallax2 {
   background-image: url("https://habrastorage.org/webt/pc/yj/0u/pcyj0uly_sdna63fl0kcwhb2fk4.png");
-  height: 10%;
+  height: 12%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -65,7 +65,16 @@ a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
+#portfolio {
+  height: 100%;
+  margin-left: 25%;
+  background-color: black;
+}
+#portfolio h2 {
+  color: white;
+  text-align: center;
+  padding: 2% 0;
+}
 #prologue h2 {
   text-align: center;
   padding: 110px 0 10 0;
@@ -112,5 +121,11 @@ a:hover {
   }
   #navanim {
     padding: 10px 20px 10px 20px !important; /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+  }
+  #portfolio {
+    margin-left: 0%;
+  }
+  #portfolio h2 {
+    padding: 5% 0;
   }
 }
